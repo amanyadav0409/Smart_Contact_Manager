@@ -31,7 +31,7 @@ public class HomeController {
 	public String update(@RequestBody Customer customer) 
 	{
 			customerRepository.save(customer);
-			return "Successfully updated";
+			return "Successfully updated" ;
 	}
 	@GetMapping("/customer") 
 	public List<Customer> customersexist() 
